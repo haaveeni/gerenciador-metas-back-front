@@ -1,3 +1,33 @@
+# Arquivos Gerados
 node_modules
+dist/
+build/
+out
+coverage
+
+# Configurações locais
+.env
+.env.local
+config.local.js
+db.json
+
+# Arquivos de cache
+npm-cache
+.yarn-cache
+
+# Arquivos de log
+*.log
+
+# Arquivos de IDE
+.vscode
+
+# Arquivos temporários
+*.temporários
+
+# Arquivos especificos de backend em node
 package-lock.json
-package.json
+yarn.lock
+
+# Arquivos de sistema
+.DS_store
+Thumbs.db
